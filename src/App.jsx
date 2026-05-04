@@ -5,20 +5,13 @@ import "./App.css";
 export default function App() {
   return (
     <div className="app-bg">
-
-      {/* HEADER */}
       <Container className="text-center text-white py-5">
         <h1 className="fw-bold">JUAN FONSECA</h1>
         <p>Estudiante de Ingeniería en Computación</p>
       </Container>
-
-      {/* PROJECTS */}
       <Container className="pb-5 px-4 px-md-5">
         <h2 className="text-white mb-5">PROYECTOS</h2>
-
-        {/* FILA 1 */}
         <Row className="g-4 mb-5">
-
           <Col md={6}>
             <Card className="project-card">
               <a href="https://frabjous-pegasus-891fab.netlify.app/" target="_blank" rel="noreferrer">
@@ -34,7 +27,6 @@ export default function App() {
               </Card.Body>
             </Card>
           </Col>
-
           <Col md={6}>
             <Card className="project-card">
               <a href="https://quiet-cheesecake-9b2e60.netlify.app/" target="_blank" rel="noreferrer">
@@ -50,12 +42,8 @@ export default function App() {
               </Card.Body>
             </Card>
           </Col>
-
         </Row>
-
-        {/* FILA 2 */}
         <Row className="g-4">
-
           <Col md={6}>
             <Card className="project-card">
               <a href="https://thriving-queijadas-7ed85d.netlify.app/" target="_blank" rel="noreferrer">
@@ -71,7 +59,6 @@ export default function App() {
               </Card.Body>
             </Card>
           </Col>
-
           <Col md={6}>
             <Card className="project-card">
               <a href="https://2025-proyecto-grupo-09-0421f8.pages.fing.edu.uy/" target="_blank" rel="noreferrer">
@@ -87,9 +74,7 @@ export default function App() {
               </Card.Body>
             </Card>
           </Col>
-
         </Row>
-
       </Container>
     </div>
   );
