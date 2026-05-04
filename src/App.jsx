@@ -20,7 +20,7 @@ export default function App() {
                 </div>
               </a>
               <Card.Body>
-                <Card.Title>Airbnb Price Predictor</Card.Title>
+                <Card.Title>Estimador de Precios Airbnb</Card.Title>
                 <Card.Text>
                   Modelo de machine learning para estimar precios, comparando Regresión Lineal y Random Forest.
                 </Card.Text>
