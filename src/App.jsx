@@ -7,7 +7,7 @@ export default function App() {
     <div className="app-bg">
       <Container className="text-center text-white py-5">
         <h1 className="fw-bold">JUAN FONSECA</h1>
-        <p>Estudiante de Ingeniería en Computación</p>
+        <p className="text-decoration-underline">Estudiante de Ingeniería en Computación</p>
       </Container>
       <Container className="pb-5 px-4 px-md-5">
         <h2 className="text-white mb-5">PROYECTOS</h2>
