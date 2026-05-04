@@ -1,16 +1,23 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="app-bg">
       <Container className="text-center text-white py-5">
-        <h1 className="fw-bold">JUAN FONSECA</h1>
-        <p className="text-decoration-underline">Estudiante de Ingeniería en Computación</p>
+        <Row className="mb-5 text-center hero">
+          <Col>
+            <h1 className="fw-bold name">JUAN FONSECA</h1>
+            <p className="subtitle">
+              Estudiante de Ingeniería en Computación
+            </p>
+          </Col>
+        </Row>
       </Container>
       <Container className="pb-5 px-4 px-md-5">
-        <h2 className="text-white mb-5">PROYECTOS</h2>
+        <h3 className="projects-title">PROYECTOS</h3>
         <Row className="g-4 mb-5">
           <Col md={6}>
             <Card className="project-card">
@@ -43,7 +50,7 @@ export default function App() {
             </Card>
           </Col>
         </Row>
-        <Row className="g-4">
+        <Row className="g-4 mb-5">
           <Col md={6}>
             <Card className="project-card">
               <a href="https://thriving-queijadas-7ed85d.netlify.app/" target="_blank" rel="noreferrer">
@@ -73,6 +80,33 @@ export default function App() {
                 </Card.Text>
               </Card.Body>
             </Card>
+          </Col>
+        </Row>
+        <Row className="mt-5 align-items-center">
+          <Col md={6} className="text-start">
+            <a href="/cv.pdf" download>
+              <Button variant="light">
+                Descargar CV
+              </Button>
+            </a>
+          </Col>
+          <Col md={6} className="text-end">
+            <a
+              href="https://github.com/juanfonseca09"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-link"
+            >
+              <FaGithub size={28} />
+            </a>
+            <a
+              href="www.linkedin.com/in/jafv2022"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-link ms-3"
+            >
+              <FaLinkedin size={28} />
+            </a>
           </Col>
         </Row>
       </Container>

@@ -1,35 +1,116 @@
-/* Fondo general */
+/* Fondo */
 .app-bg {
   min-height: 100vh;
   background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
-/* Card */
-.project-card {
-  border: none;
-  border-radius: 12px;
-  overflow: hidden;
+/* Nombre */
+.name {
+  color: white;
+  letter-spacing: 2px;
+  padding-top: 20vh;
+  transition: color 0.5s ease;
 }
 
-/* Imagen */
-.img-container {
-  overflow: hidden;
+.name:hover {
+  color: #94a3b8;
 }
+/* Subtítulo */
+.subtitle {
+  color: #94a3b8;
+  padding-bottom: 5vh;
+}
+
+/* ========================= */
+/* TÍTULO PROYECTOS */
+/* ========================= */
+
+.projects-title {
+  position: relative;
+  display: inline-block;
+  color: white;
+  transition: color 0.5s ease;
+  margin-bottom: 8vh;
+}
+
+/* Línea */
+.projects-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: white;
+  transform: translateX(-50%);
+  transition: width 0.5s ease;
+}
+
+/* Hover */
+.projects-title:hover::after {
+  width: 0;
+}
+
+.projects-title:hover {
+  color: #94a3b8;
+}
+
+/* ========================= */
+/* CARDS */
+/* ========================= */
+
+.project-card {
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  transition: background 0.5s ease;
+}
+
+.project-card:hover {
+  background: #94a3b8;
+}
+
+/* Texto cards */
+.project-card p {
+  color: #334155;
+}
+
+.project-card .card-title {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* ========================= */
+/* IMÁGENES */
+/* ========================= */
 
 .img-container img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
 
-/* Hover zoom */
 .img-container:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-/* Cuerpo de card */
-.project-card .card-body {
-  background: white;
-  color: #111;
+/* ========================= */
+/* ICONOS */
+/* ========================= */
+
+.icon-link {
+  color: white;
+  transition: 0.5s;
+}
+
+.icon-link:hover {
+  color: #94a3b8;
+}
+
+.text-end {
+  padding-top: 10vh;
+}
+.text-start {
+  padding-top: 10vh;
 }
