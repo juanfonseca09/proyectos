@@ -84,7 +84,7 @@ export default function App() {
         </Row>
         <Row className="mt-5 align-items-center">
           <Col md={6} className="text-start">
-            <a href="/cv.pdf" download>
+            <a href="/Resume_Juan_Fonseca.pdf" download>
               <Button variant="light">
                 Descargar CV
               </Button>
@@ -100,7 +100,7 @@ export default function App() {
               <FaGithub size={28} />
             </a>
             <a
-              href="www.linkedin.com/in/jafv2022"
+              href="https://www.linkedin.com/in/jafv2022/"
               target="_blank"
               rel="noreferrer"
               className="icon-link ms-3"
