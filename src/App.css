@@ -1,29 +1,23 @@
-/* Fondo */
 .app-bg {
   min-height: 100vh;
   background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
-/* Nombre */
 .name {
   color: white;
   letter-spacing: 2px;
-  padding-top: 20vh;
   transition: color 0.5s ease;
+  padding-top: 20vh;
 }
 
 .name:hover {
   color: #94a3b8;
 }
-/* Subtítulo */
+
 .subtitle {
   color: #94a3b8;
   padding-bottom: 5vh;
 }
-
-/* ========================= */
-/* TÍTULO PROYECTOS */
-/* ========================= */
 
 .projects-title {
   position: relative;
@@ -33,7 +27,6 @@
   margin-bottom: 8vh;
 }
 
-/* Línea */
 .projects-title::after {
   content: "";
   position: absolute;
@@ -46,7 +39,6 @@
   transition: width 0.5s ease;
 }
 
-/* Hover */
 .projects-title:hover::after {
   width: 0;
 }
@@ -54,10 +46,6 @@
 .projects-title:hover {
   color: #94a3b8;
 }
-
-/* ========================= */
-/* CARDS */
-/* ========================= */
 
 .project-card {
   border-radius: 8px;
@@ -70,7 +58,6 @@
   background: #94a3b8;
 }
 
-/* Texto cards */
 .project-card p {
   color: #334155;
 }
@@ -79,10 +66,6 @@
   color: #0f172a;
   font-weight: 600;
 }
-
-/* ========================= */
-/* IMÁGENES */
-/* ========================= */
 
 .img-container img {
   width: 100%;
@@ -94,10 +77,6 @@
 .img-container:hover img {
   transform: scale(1.05);
 }
-
-/* ========================= */
-/* ICONOS */
-/* ========================= */
 
 .icon-link {
   color: white;
@@ -113,4 +92,24 @@
 }
 .text-start {
   padding-top: 10vh;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -9,15 +9,15 @@ export default function App() {
       <Container className="text-center text-white py-5">
         <Row className="mb-5 text-center hero">
           <Col>
-            <h1 className="fw-bold name">JUAN FONSECA</h1>
-            <p className="subtitle">
+            <h1 className="fw-bold name fade-in">JUAN FONSECA</h1>
+            <p className="subtitle fade-in-delay">
               Estudiante de Ingeniería en Computación
             </p>
           </Col>
         </Row>
       </Container>
       <Container className="pb-5 px-4 px-md-5">
-        <h3 className="projects-title">PROYECTOS</h3>
+        <h3 className="projects-title fade-in">PROYECTOS</h3>
         <Row className="g-4 mb-5">
           <Col md={6}>
             <Card className="project-card">
