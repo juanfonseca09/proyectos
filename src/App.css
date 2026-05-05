@@ -4,9 +4,13 @@
 }
 
 .name {
+  display: inline-block; 
   color: white;
   letter-spacing: 2px;
   transition: color 0.5s ease;
+}
+
+.hero {
   padding-top: 20vh;
 }
 
