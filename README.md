@@ -1,16 +1,40 @@
-# React + Vite
+# Portfolio - Juan Fonseca
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal donde presento algunos de mis proyectos.
+## Sobre mí
 
-Currently, two official plugins are available:
+Soy estudiante de Ingeniería en Computación, con interés en análisis de datos.  
+Este portfolio reúne proyectos realizados tanto de forma individual como en la facultad.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Proyectos
 
-## React Compiler
+- **Estimador de Precios Airbnb**  
+  Modelo de machine learning para estimar precios utilizando Regresión Lineal y Random Forest.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Análisis de Siniestros de Tránsito**  
+  Análisis exploratorio de datos con Python y SQL para identificar patrones temporales y geográficos.
 
-## Expanding the ESLint configuration
+- **Predicción de Delitos en Uruguay**  
+  Modelado predictivo simple utilizando series temporales.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Proyecto de Visión por Computadora**  
+  Trabajo en equipo aplicando técnicas básicas de procesamiento de imágenes.
+
+## Tecnologías
+
+- Python
+- Pandas
+- Scikit-learn
+- SQL
+- React
+- FastAPI
+
+## Demo
+
+Podés ver el portfolio en:  
+https://juan-fonseca-proyectos.netlify.app/
+
+## Contacto
+
+- GitHub: https://github.com/juanfonseca09  
+- LinkedIn: https://linkedin.com/in/jafv2022
