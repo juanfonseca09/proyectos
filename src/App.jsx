@@ -61,7 +61,7 @@ export default function App() {
               <Card.Body>
                 <Card.Title>Procesamiento de Datos de Delitos</Card.Title>
                 <Card.Text>
-                  Limpieza de datos y modelado predictivo básico usando series temporales.
+                  Limpieza de datos, modelado predictivo básico y visualización de resultados utilizando Python y Power BI.
                 </Card.Text>
               </Card.Body>
             </Card>
