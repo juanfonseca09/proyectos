@@ -44,7 +44,7 @@ export default function App() {
               <Card.Body>
                 <Card.Title>Análisis de Datos de Tránsito</Card.Title>
                 <Card.Text>
-                  Análisis y visualización de datos utilizando Python, SQL y Power BI para identificar patrones temporales y geográficos.
+                  Análisis y visualización de datos utilizando Python, SQL y Power BI para identificar patrones.
                 </Card.Text>
               </Card.Body>
             </Card>
