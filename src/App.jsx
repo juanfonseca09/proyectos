@@ -33,7 +33,7 @@ export default function App() {
               <Card.Body>
                 <Card.Title>Análisis de Viajes STM</Card.Title>
                 <Card.Text>
-                  Análisis del transporte usando Python, SQL Server y Power BI, con carga de datos, consultas y visualizaciones.
+                  Análisis del transporte usando SQL Server y Power BI, con carga de datos, consultas y visualizaciones.
                 </Card.Text>
               </Card.Body>
             </Card>
