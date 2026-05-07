@@ -33,7 +33,7 @@ export default function App() {
               <Card.Body>
                 <Card.Title>Análisis de Viajes STM</Card.Title>
                 <Card.Text>
-                  Pipeline ETL y dashboard BI utilizando Python, SQL Server, Stored Procedures y Power BI sobre datos reales del STM.
+                  Análisis del transporte usando Python, SQL Server y Power BI, con carga de datos, consultas y visualizaciones.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -52,7 +52,7 @@ export default function App() {
               <Card.Body>
                 <Card.Title>Estimador de Precios Airbnb</Card.Title>
                 <Card.Text>
-                  Modelo de machine learning para estimar precios comparando Regresión Lineal y Random Forest.
+                  Modelo basico de machine learning para estimar precios comparando Regresión Lineal y Random Forest.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -73,7 +73,7 @@ export default function App() {
               <Card.Body>
                 <Card.Title>Análisis de Datos de Tránsito</Card.Title>
                 <Card.Text>
-                  Limpieza, consultas SQL y visualización de datos para detectar patrones temporales y geográficos.
+                  Limpieza, consultas SQL y visualización de datos con BI para detectar patrones.
                 </Card.Text>
               </Card.Body>
             </Card>
